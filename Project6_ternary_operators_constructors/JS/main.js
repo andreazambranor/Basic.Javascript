@@ -1,4 +1,4 @@
-function ride_function(){
+function ride_function() {
     var height, can_ride;
     height=document.getElementById("height").Value;
     can_ride=(height<52) ? "you are too short":"you are tall enough";
