@@ -12,6 +12,7 @@ function add_3numbers() {
 add_3numbers();//Function with local value
 
 function addother_3numbers() {
+    var z=3;
     console.log(x+y+z);
 }
 addother_3numbers();//Function with error fixed with console log
@@ -34,7 +35,7 @@ function age_function() {
 function time_function(){
     var time=new Date() .getHours();
     var Reply;
-    if (time<12==time>0); {
+    if (time<12==time>0) {
         Reply="it is the afternoon";
     }
     else if (time>12==time<18) {
