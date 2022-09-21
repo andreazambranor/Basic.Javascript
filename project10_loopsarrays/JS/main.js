@@ -19,3 +19,45 @@ function forloop() {
     }
     document.getElementById("studentlist").innerHTML=content;
 }
+
+//ASSIGNMENT 52 CREATEARRAY
+function createarray() {
+    var student_size=[];
+    student_size[0]=5;
+    student_size[1]=10;
+    student_size[2]=5;
+    student_size[3]=5;
+    student_size[4]=9;
+    student_size[5]=10;
+    document.getElementById(array).innerHTML
+}
+
+//ASSINGMENT 53 CONSTANT
+function constantfunction() {
+    const person={name:"Andrea", lastname:"Zambrano", gender:"female"};
+    person.age=29;
+    person.nationality="mexican";
+    document.getElementById("constant").innerHTML=person.name+" is "+person.age+" years old.";
+}
+
+//ASSIGMENT 54 LET
+var B="andrea";
+document.getElementById("letkeyword").innerHTML=B;
+{
+    let B="roberto";
+    document.getElementById("letkeyword2").innerHTML=B;
+}
+document.getElementById("letkeyword3").innerHTML=B;
+
+//ASSIGNMENT 55 OBJECT
+let class1={
+    subject:"spanish ",
+    teacher:"Mr Jaskin ",
+    classroom:"305 ",
+    day:"Monday ",
+    time:"10 a.m. ",
+    description: function() {
+        return "Your first class is "+this.subject+"with "+this.teacher+"in classroom "+this.classroom+"on "+this.day+"at "+this.time;
+    }
+};
+document.getElementById("clasobject").innerHTML=class1.description();
