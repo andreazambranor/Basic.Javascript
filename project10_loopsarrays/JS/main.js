@@ -29,7 +29,7 @@ function createarray() {
     student_size[3]=5;
     student_size[4]=9;
     student_size[5]=10;
-    document.getElementById(array).innerHTML
+    document.getElementById("array").innerHTML="The student is "+student_size[4]+".";
 }
 
 //ASSINGMENT 53 CONSTANT
